@@ -14,5 +14,5 @@
   "engines": {
     "node": ">=20.x"
   },
-  "name": "sv-previous"
+  "name": "@trueight/sv-previous-repo"
 }
