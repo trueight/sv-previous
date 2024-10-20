@@ -1,5 +1,8 @@
 {
-	"name": "sv-previous",
+	"name": "@trueight/sv-previous",
+	"repository": {
+		"url": "https://github.com/trueight/sv-previous.git"
+	},
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
