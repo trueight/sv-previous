@@ -15,7 +15,8 @@
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
 		"lint": "eslint . && prettier --check .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"publish-packages": "turbo run build lint test && changeset version && changeset publish"
 	},
 	"files": [
 		"dist",
